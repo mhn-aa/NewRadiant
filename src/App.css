@@ -1,4 +1,4 @@
-.Main_Nav_bar {
+.header {
   /* display: flex; */
   /* justify-content: center; */
   /* text-align: center; */
@@ -6,46 +6,48 @@
   /* color: navy; */
   display: flex;
   align-items: center;
-  }
-  
-  .generosity-3 {
-    display: flex;
-  }
+}
 
-  .center1 {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-  }
-  .left1 {
-    display: flex;
-    flex: 1;
-    justify-content: flex-start;
-  }
-  .left3{
-    display: flex;
-    flex: 1;
-    justify-content: center;
-  }
+.generosity-3 {
+  display: flex;
+}
 
-  .left2{
-    display: flex;
-    flex: 1;
-    justify-content: center;
-  }
+.center1 {
+  display: flex;
+  justify-content: center;
+}
+.left1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.left3 {
+  display: flex;
+  justify-content: center;
+}
 
-  .right3{
+.left2 {
+  display: flex;
+  justify-content: center;
+}
+
+.right3 {
   height: 50px;
   width: 50px;
-  background-color:springgreen;
+  background-color: springgreen;
   border-radius: 50%;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.eye {
+  font-size: 33px !important;
+  color: chocolate;
+}
 
-  /* .7 {
+/* .7 {
     
   } */
-
 
 .App-Radiant {
   /* display: flex; */
@@ -62,11 +64,3 @@
   /* border-radius: 50%; */
   /* display: flex; */
 }
-
-
-
-
-
-
-
-
