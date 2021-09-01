@@ -29,10 +29,18 @@ function App() {
         <div className="right2">
           <h1>ET</h1>
         </div>
-        <div className="right1"></div>
-        <div className="generosity0"> </div>
-        <div className="generosity-1"> </div>
-        <div className="generosity-2"> </div>
+        <div className="right1">
+          <h4>Alimo</h4>
+        </div>
+        <div className="generosity0">
+          <h1>F1</h1>
+        </div>
+        <div className="generosity-1">
+          <h1>F2</h1>
+        </div>
+        <div className="generosity-2">
+          <h1>F2</h1>
+        </div>
         <div className="generosity-3">
           <button>Log in</button>
         </div>
@@ -41,7 +49,7 @@ function App() {
       <div className="body">
         <p>body</p>
       </div>
-      <div className="div">
+      <div className="footer">
         <p>footer</p>
       </div>
     </div>
