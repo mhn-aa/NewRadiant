@@ -39,7 +39,7 @@ function App() {
           <h1>F2</h1>
         </div>
         <div className="generosity-2">
-          <h1>F2</h1>
+          <h1>F3</h1>
         </div>
         <div className="generosity-3">
           <button>Log in</button>
