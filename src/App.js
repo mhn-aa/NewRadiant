@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import PregnantWomanIcon from "@material-ui/icons/PregnantWoman";
@@ -6,6 +7,10 @@ import StopIcon from "@material-ui/icons/Stop";
 import { Button } from "@material-ui/core";
 
 function App() {
+  const adminUser = {
+    email: "admin@admin.com",
+    password: "admin123",
+  };
   return (
     <div>
       <div className="header">
