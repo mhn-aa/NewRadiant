@@ -64,7 +64,10 @@ function App() {
       </div>
 
       <div className="body">
-        <p>body</p>
+        <h1>R</h1>
+        <h1>Psychedelics & Coding</h1>
+        <h2>Translation & Coding</h2>
+        <p>ترگمان و ترجمیار</p>
       </div>
       <div className="footer">
         <p>footer</p>

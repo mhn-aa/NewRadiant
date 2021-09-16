@@ -56,11 +56,9 @@
 }
 
 .right3 {
-  height: 50px;
-  width: 50px;
   background-color: springgreen;
   border-radius: 50%;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
@@ -107,5 +105,12 @@
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
   background-color: lightgray;
+}
+
+.body {
+  display: grid;
+  justify-content: center;
 }
