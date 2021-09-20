@@ -67,7 +67,13 @@ function App() {
         <h1>R</h1>
         <h1>Psychedelics & Coding</h1>
         <h2>Translation & Coding</h2>
-        <p>ترگمان و ترجمیار</p>
+        {/* <p>ترگمان و ترجمیار</p>
+        <p>فرکانس بالا ست یا با این</p>
+        <p>هنوز میاد بوی دود ماشین</p>
+        <p>هنوز بوی دود سم او</p>
+        <p>بوی دود کاری</p>
+        <p>بوی خوی خانه</p>
+        <p>باید رفت</p> */}
       </div>
       <div className="footer">
         <p>footer</p>
