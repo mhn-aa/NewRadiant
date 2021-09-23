@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import PregnantWomanIcon from "@material-ui/icons/PregnantWoman";
 import VisibilityIcon from "@material-ui/icons/Visibility";
@@ -33,7 +32,8 @@ function App() {
           <h3>Menu</h3>
         </div>
         <div className="left3">
-          <h1>P</h1>
+          {/* <h1>P</h1> */}
+          <img src=""></img>{" "}
         </div>
         <div className="center1">
           <a class="Radiant" href="./index.html">
@@ -62,6 +62,50 @@ function App() {
           <button>Log in</button>
         </div>
       </div>
+      <div className="links">
+        <div class="first_people">
+          <a href="./People.html">People</a>
+        </div>
+        <div className="first_books">
+          <a href="./Books.html">Books</a>
+        </div>
+        <div className="first_art">
+          <a href="./Art.html">Art </a>
+        </div>
+        <div className="first_drugs">
+          <a href="./Drugs.html"> Drugs </a>
+        </div>
+        <div className="first_language">
+          <a href=".Language.js">Language </a>
+        </div>
+        <div className="first_sexuality">
+          <a href="./Sexuality.js">Sexuality </a>
+        </div>
+        <div className="first_sprituality">
+          <a href="./Sprituality.js">Sprituality </a>
+        </div>
+        <div className="first_communication">
+          <a href="./Communication.js">Communication </a>
+        </div>
+        <div className="first_archeology">
+          <a href="./Archeology.js">Archeology </a>
+        </div>
+        <div className="first_technology">
+          <a href="./Technology.js"> Technology </a>
+        </div>
+        <div class="first_astrology">
+          <a href="./Astrology.js">Astrology</a>
+        </div>
+        <div class="first_philosophy">
+          <a href="./Philosophy.js">Philosophy</a>
+        </div>
+        <div class="first_coding">
+          <a href="./coding.js">Coding</a>
+        </div>
+        <div class="first_about-us">
+          <a href="./About-Us.js">About Us</a>
+        </div>
+      </div>
 
       <div className="body">
         <h1>R</h1>
@@ -88,7 +132,7 @@ function App() {
           Libra (=£=), and Aquarius (^r). The Watery trigon embraces the signs
           Cancer (E5), Scorpio (Til ), and Pisces ( X ), also see page 399,
           Wilson’s Dictionary of Astrology. page 226 light of egypt vol 1, by
-          Zanoni, by MHN{" "}
+          Zanoni, by MHN.
         </p>
         <p>
           Three fiery elements plus and earthly element. and the when had this
@@ -114,6 +158,16 @@ function App() {
           problem. I have passions, coding, health and body, mind, psychedelics,
           books, ideas, and all progressive flows of the universe. any moment
           can be the last moment.
+        </p>
+        <p>
+          There are people who have a specific direction in their coding.by
+          other means they are doing this in order to gain benefit. They are not
+          beings of realization. spritual beings offer the fruit of their work
+          to the whole. Library can help us, a safe place for a person to self
+          educate. study. Searching for real knowledge, astrology. mathematics
+          and geometry.This coding phoilosphy is highly related to this feild.
+          Currently it can be the nearest to sangsara. love of 10,000 as Terence
+          mentioned.
         </p>
         <h1>Astrology and Astronomy</h1>
       </div>

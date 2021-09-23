@@ -3,13 +3,11 @@
 }
 
 .header {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* text-align: center; */
+  height: 42px;
   background-color: lightgray;
-  /* color: navy; */
+
   display: flex;
-  /* flex: 1; */
+
   align-items: center;
 }
 
@@ -117,4 +115,8 @@
 .body {
   display: grid;
   justify-content: center;
+}
+
+.links {
+  display: flex;
 }
