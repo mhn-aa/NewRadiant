@@ -1,60 +1,58 @@
 * {
-  margin: 10px;
+  margin: 9px;
 }
 
 .header {
   height: 42px;
   background-color: lightgray;
-
   display: flex;
-
   align-items: center;
 }
 
 .generosity0 {
   display: flex;
   justify-content: center;
-  flex: 9.09%;
+  flex: 1;
 }
 
 .generosity-1 {
   display: flex;
   justify-content: center;
-  flex: 9.09%;
+  flex: 1;
 }
 
 .generosity-2 {
   display: flex;
   justify-content: center;
-  flex: 9.09%;
+  flex: 1;
 }
 
 .generosity-3 {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* flex: 9.09%; */
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 
 .center1 {
   display: flex;
   justify-content: center;
-  flex: 9.09%;
+  flex: 1;
 }
 .left1 {
   display: flex;
   justify-content: flex-start;
-  flex: 9.09%;
+  flex: 1;
 }
 .left3 {
   display: flex;
   justify-content: center;
-  flex: 9.09%;
+  flex: 1;
 }
 
 .left2 {
   display: flex;
   justify-content: center;
-  flex: 9.09%;
+  flex: 1;
 }
 
 .right3 {

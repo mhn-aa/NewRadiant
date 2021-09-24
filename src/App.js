@@ -4,37 +4,20 @@ import PregnantWomanIcon from "@material-ui/icons/PregnantWoman";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import StopIcon from "@material-ui/icons/Stop";
 import { Button } from "@material-ui/core";
+import "./Assets/RADIANT.jpeg";
 
 function App() {
-  const adminUser = {
-    email: "admin@admin.com",
-    password: "admin123",
-  };
-
-  const [user, setUser] = useState({ name: "", email: "" });
-  const [error, setError] = useState("");
-
-  const Login = (details) => {
-    console.log(details);
-  };
-
-  const Logout = () => {
-    console.log("Logout");
-  };
-
   return (
     <div>
       <div className="header">
         <div className="left1">
-          <h1>R</h1>
+          <img src="./Assets/RADIANT.jpeg"></img>
+          {/* <h1>R</h1> */}
         </div>
         <div className="left2">
           <h3>Menu</h3>
         </div>
-        <div className="left3">
-          {/* <h1>P</h1> */}
-          <img src=""></img>{" "}
-        </div>
+        <div className="left3">{/* <h1>P</h1> */}</div>
         <div className="center1">
           <a class="Radiant" href="./index.html">
             <h1>RADIANT</h1>
@@ -109,8 +92,8 @@ function App() {
 
       <div className="body">
         <h1>R</h1>
-        <h1>Psychedelics & Coding</h1>
-        <h2>Translation & Coding</h2>
+        {/* <h1>Psychedelics & Coding</h1> */}
+        {/* <h2>Translation & Coding</h2> */}
         {/* <p>ترگمان و ترجمیار</p>
         <p>فرکانس بالا ست یا با این</p>
         <p>هنوز میاد بوی دود ماشین</p>
@@ -120,7 +103,7 @@ function App() {
         <p>باید رفت</p> */}
       </div>
       <div>
-        <p>
+        {/* <p>
           The next great subject which requires the student’s thoughtful
           attention is the four Triplicities. These trigons correspond to the
           four ancient elements, and are therefore, Fiery, Earthy, Airy and Wa¬
@@ -133,15 +116,15 @@ function App() {
           Cancer (E5), Scorpio (Til ), and Pisces ( X ), also see page 399,
           Wilson’s Dictionary of Astrology. page 226 light of egypt vol 1, by
           Zanoni, by MHN.
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           Three fiery elements plus and earthly element. and the when had this
           fire. complexity all over this moment. In other words, rapid occurance
           of change in individual experience. discordination btw elements of the
           body. Coding is helping. Co-star interpreted that there is power in
           sexuality.
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           The moon is in charge, obviously not in a negative way. We need to use
           our minds better. We need to adapt into this moment. what is porn ?
           why nobody is willing to elaborate on it ? who is doing the coding in
@@ -151,15 +134,15 @@ function App() {
           going to be something that evebtually destroys us and potentially
           itself ? or is it going to blossom and saves us for exploring higher
           states.
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           I kinda knew about the fire. but I was not 100% sure. I didnt use my
           intellect. I am aware of some of my own conditions. like my spelling
           problem. I have passions, coding, health and body, mind, psychedelics,
           books, ideas, and all progressive flows of the universe. any moment
           can be the last moment.
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           There are people who have a specific direction in their coding.by
           other means they are doing this in order to gain benefit. They are not
           beings of realization. spritual beings offer the fruit of their work
@@ -168,8 +151,8 @@ function App() {
           and geometry.This coding phoilosphy is highly related to this feild.
           Currently it can be the nearest to sangsara. love of 10,000 as Terence
           mentioned.
-        </p>
-        <h1>Astrology and Astronomy</h1>
+        </p> */}
+        {/* <h1>Astrology and Astronomy</h1> */}
       </div>
       <div className="footer">
         <p>footer</p>
