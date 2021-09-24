@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.css";
 import VisibilityIcon from "@material-ui/icons/Visibility";
-import "./Assets/RADIANT.jpeg";
 
 function App() {
   return (
     <div>
       <div className="header">
-        <div className="left1">{/* <h1>R</h1> */}</div>
+        <div className="left1"></div>
         <div className="left2">
           <h3>Menu</h3>
         </div>
@@ -136,7 +135,7 @@ function App() {
           books, ideas, and all progressive flows of the universe. any moment
           can be the last moment.
         </p> */}
-        {/* <p>
+        <p>
           There are people who have a specific direction in their coding.by
           other means they are doing this in order to gain benefit. They are not
           beings of realization. spritual beings offer the fruit of their work
@@ -145,8 +144,14 @@ function App() {
           and geometry.This coding phoilosphy is highly related to this feild.
           Currently it can be the nearest to sangsara. love of 10,000 as Terence
           mentioned.
-        </p> */}
-        {/* <h1>Astrology and Astronomy</h1> */}
+        </p>
+        <p>
+          Again. I am back at this again. I am not Radiant now. content of our
+          minds. Some simple HTML files. What is React? what is JavaScript? is
+          anybody doing python? I personally like git the most. I like css too.
+          I am working on this. this is the true me.
+        </p>
+        <h1>Astrology and Astronomy</h1>
       </div>
       <div className="footer">
         <p>footer</p>
