@@ -1,19 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import PregnantWomanIcon from "@material-ui/icons/PregnantWoman";
 import VisibilityIcon from "@material-ui/icons/Visibility";
-import StopIcon from "@material-ui/icons/Stop";
-import { Button } from "@material-ui/core";
 import "./Assets/RADIANT.jpeg";
 
 function App() {
   return (
     <div>
       <div className="header">
-        <div className="left1">
-          <img src="./Assets/RADIANT.jpeg"></img>
-          {/* <h1>R</h1> */}
-        </div>
+        <div className="left1">{/* <h1>R</h1> */}</div>
         <div className="left2">
           <h3>Menu</h3>
         </div>
