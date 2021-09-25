@@ -4,6 +4,7 @@ import "./App.css";
 import "./Drugs";
 
 function App() {
+  const adminUser = {};
   const [todos, setTodos] = useState([]);
   const todoNameRef = useRef();
   return (
