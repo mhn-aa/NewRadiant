@@ -1,8 +1,11 @@
-import React from "react";
-import "./App.css";
+import React, { useState, useRef, useEffect } from "react";
 import VisibilityIcon from "@material-ui/icons/Visibility";
+import "./App.css";
+import "./Drugs";
 
 function App() {
+  const [todos, setTodos] = useState([]);
+  const todoNameRef = useRef();
   return (
     <div>
       <div className="header">
@@ -40,16 +43,16 @@ function App() {
       </div>
       <div className="links">
         <div class="first_people">
-          <a href="./People.html">People</a>
+          <a href="./People.js">People</a>
         </div>
         <div className="first_books">
-          <a href="./Books.html">Books</a>
+          <a href="./Books.js">Books</a>
         </div>
         <div className="first_art">
-          <a href="./Art.html">Art </a>
+          <a href="./Art.js">Art </a>
         </div>
         <div className="first_drugs">
-          <a href="./Drugs.html"> Drugs </a>
+          <a href="./Drugs.js"> Drugs </a>
         </div>
         <div className="first_language">
           <a href=".Language.js">Language </a>
@@ -165,6 +168,10 @@ function App() {
           However, truth is inside us. it is about "Know thyself". There is no
           externality in this feild. Nothing but all inside business. There is
           no either accidents or problems. It is about intuition.
+        </p>
+        <p>
+          Again back at this. another paragraph. lets get back to this Radiant
+          thing and do some work in "Drugs.js".
         </p>
         {/* <h1>Astrology and Astronomy</h1> */}
       </div>
