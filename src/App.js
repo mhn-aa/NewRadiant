@@ -7,7 +7,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const todoNameRef = useRef();
   return (
-    <div>
+    <div className="App">
       <div className="header">
         <div className="left1"></div>
         <div className="left2">
@@ -171,7 +171,9 @@ function App() {
         </p>
         <p>
           Again back at this. another paragraph. lets get back to this Radiant
-          thing and do some work in "Drugs.js".
+          thing and do some work in "Drugs.js". Radiant is a big project. it is
+          all about learning. and it is a self transforming source. Can you all
+          see that login form on top left?
         </p>
         {/* <h1>Astrology and Astronomy</h1> */}
       </div>
