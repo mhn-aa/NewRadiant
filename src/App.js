@@ -4,9 +4,18 @@ import "./App.css";
 import "./Drugs";
 
 function App() {
-  const adminUser = {};
-  const [todos, setTodos] = useState([]);
-  const todoNameRef = useRef();
+  const adminUser = {
+    email: "admin@admin.com",
+    password: "admin123",
+  };
+
+  const [user, setUser] = useState({ name: "", email: "" });
+  const [error, setError] = useState("");
+
+  const Login = (details) => {
+    console.log(details);
+  };
+
   return (
     <div className="App">
       <div className="header">
