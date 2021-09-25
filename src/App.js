@@ -151,7 +151,22 @@ function App() {
           anybody doing python? I personally like git the most. I like css too.
           I am working on this. this is the true me.
         </p>
-        <h1>Astrology and Astronomy</h1>
+        <p>
+          This new day started by The Text-Book of Astrology by A.J. PEARCE.
+          Although it was mentioned by Zanoni in The Light Of Egypt Vol 1 that
+          dope addiction is not the way of truth (can't remember the exact
+          quote). I had my coffee beside me. I do agree with Zanoni. dope
+          addiction is not the way. Furthermore, it was mentioned by Maharaji
+          thousands of time. He knows everything.
+        </p>
+        <p>
+          Still struggling with diverse range of matters. At some level all
+          these phenomena seem absurd and there is no control from our side.
+          However, truth is inside us. it is about "Know thyself". There is no
+          externality in this feild. Nothing but all inside business. There is
+          no either accidents or problems. It is about intuition.
+        </p>
+        {/* <h1>Astrology and Astronomy</h1> */}
       </div>
       <div className="footer">
         <p>footer</p>

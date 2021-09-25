@@ -1,7 +1,3 @@
-* {
-  margin: 9px;
-}
-
 .header {
   height: 42px;
   background-color: lightgray;
@@ -39,19 +35,13 @@
   flex: 1;
 }
 .left1 {
-  display: flex;
-  justify-content: flex-start;
   flex: 1;
 }
 .left3 {
-  display: flex;
-  justify-content: center;
   flex: 1;
 }
 
 .left2 {
-  display: flex;
-  justify-content: center;
   flex: 1;
 }
 
@@ -59,45 +49,23 @@
   background-color: springgreen;
   border-radius: 50%;
   display: grid;
-  justify-content: center;
-  align-items: center;
 }
 
 .right2 {
   display: flex;
   justify-content: center;
-  flex: 9.09%;
+  flex: 1;
 }
 
 .right1 {
   display: flex;
   justify-content: center;
-  flex: 9.09%;
+  flex: 1;
 }
 
 .eye {
   font-size: 33px !important;
   color: chocolate;
-}
-
-/* .7 {
-    
-  } */
-
-.App-Radiant {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* text-align: center; */
-  /* background-color: hotpink; */
-  /* color: navy; */
-}
-
-.div {
-  /* height: 50px; */
-  /* width: 50px; */
-  /* background-color: lightgray; */
-  /* border-radius: 50%; */
-  /* display: flex; */
 }
 
 .body {
