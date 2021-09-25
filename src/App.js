@@ -176,6 +176,19 @@ function App() {
           all about learning. and it is a self transforming source. Can you all
           see that login form on top left?
         </p>
+        <p>
+          Concept and Kian. A short movie which starts with death. Death is
+          nearby. and right now is. Death comes with birth.not life. life
+          continues. We know that. my body does not like ciggarete smokes
+          anymore. It is time for another shift in conciousness. I will try to
+          do some job in README.
+        </p>
+        <p>
+          Medication. This is not the way. only self medication is effective. I
+          need to detox my body from caffeine and nicotine permanently until I
+          am in this body, and have to approach cannabis psychedelicly. I can
+          take the first step now. Just right now.
+        </p>
         {/* <h1>Astrology and Astronomy</h1> */}
       </div>
       <div className="footer">
