@@ -196,7 +196,9 @@ function App() {
           Medication. This is not the way. only self medication is effective. I
           need to detox my body from caffeine and nicotine permanently until I
           am in this body, and have to approach cannabis psychedelicly. I can
-          take the first step now. Just right now.
+          take the first step now. Just right now. 9:27 npm start 25th of
+          September 2021. It does not matter if I was not able to push some
+          "Logout" commits. I feel I am home. I am in my body.
         </p>
         {/* <h1>Astrology and Astronomy</h1> */}
       </div>
