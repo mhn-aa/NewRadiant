@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
 import "./Drugs.js";
-import RadiantLOGO from "./Components/Assets/RADIANT.jpeg";
 import Header from "./Components/Header";
 import Login from "./Components/Login";
 
@@ -19,6 +18,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        {/* <Radiant /> */}
         <div className="links">
           <div class="first_people">
             <a href="./People.js">People</a>
@@ -76,7 +76,7 @@ function App() {
           </Route>
           <Route path="/" exact>
             <div className="body">
-              <h1>R</h1>
+              {/* <h1>R</h1> */}
               {/* <h1>Psychedelics & Coding</h1> */}
               {/* <h2>Translation & Coding</h2> */}
               {/* <p>ترگمان و ترجمیار</p>
@@ -87,6 +87,7 @@ function App() {
               <p>بوی خوی خانه</p>
               <p>باید رفت</p> */}
             </div>
+
             <div>
               <p>
                 The next great subject which requires the student’s thoughtful
@@ -103,31 +104,25 @@ function App() {
                 Dictionary of Astrology. page 226 light of egypt vol 1, by
                 Zanoni, by MHN.
               </p>
-              {/* <p>
-          Three fiery elements plus and earthly element. and the when had this
-          fire. complexity all over this moment. In other words, rapid occurance
-          of change in individual experience. discordination btw elements of the
-          body. Coding is helping. Co-star interpreted that there is power in
-          sexuality.
-        </p> */}
-              {/* <p>
-          The moon is in charge, obviously not in a negative way. We need to use
-          our minds better. We need to adapt into this moment. what is porn ?
-          why nobody is willing to elaborate on it ? who is doing the coding in
-          porn industry ? since it looks like "coding" equals to infinite
-          possibilites and potentialiets. why the are doing that? I think they
-          call them black hat hackers. what is the future of programming? Is it
-          going to be something that evebtually destroys us and potentially
-          itself ? or is it going to blossom and saves us for exploring higher
-          states.
-        </p> */}
-              {/* <p>
-          I kinda knew about the fire. but I was not 100% sure. I didnt use my
-          intellect. I am aware of some of my own conditions. like my spelling
-          problem. I have passions, coding, health and body, mind, psychedelics,
-          books, ideas, and all progressive flows of the universe. any moment
-          can be the last moment.
-        </p> */}
+
+              <p>
+                The moon is in charge, obviously not in a negative way. We need
+                to use our minds better. We need to adapt into this moment. what
+                is porn ? why nobody is willing to elaborate on it ? who is
+                doing the coding in porn industry ? since it looks like "coding"
+                equals to infinite possibilites and potentialiets. why the are
+                doing that? I think they call them black hat hackers. what is
+                the future of programming? Is it going to be something that
+                evebtually destroys us and potentially itself ? or is it going
+                to blossom and saves us for exploring higher states.
+              </p>
+              <p>
+                I kinda knew about the fire. but I was not 100% sure. I didnt
+                use my intellect. I am aware of some of my own conditions. like
+                my spelling problem. I have passions, coding, health and body,
+                mind, psychedelics, books, ideas, and all progressive flows of
+                the universe. any moment can be the last moment.
+              </p>
               <p>
                 There are people who have a specific direction in their
                 coding.by other means they are doing this in order to gain

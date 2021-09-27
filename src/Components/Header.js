@@ -8,7 +8,18 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="left1"></div>
+      <div className="left1">
+        <svg width="100" height="96">
+          <circle
+            cx="50"
+            cy="50"
+            r="27"
+            stroke="royalblue"
+            stroke-width="1.5"
+            fill="silver"
+          />
+        </svg>
+      </div>
       <div className="left2">
         <h3>Menu</h3>
       </div>
