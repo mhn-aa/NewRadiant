@@ -64,6 +64,12 @@ function App() {
         <navLink exact activeClassName="active" to="/">
           Drugs{" "}
         </navLink>
+        <navLink exact activeClassName="active" to="/">
+          Politics{" "}
+        </navLink>
+        <navLink exact activeClassName="active" to="/">
+          Culture{" "}
+        </navLink>
         <div className="first_language">
           <a href=".Language.js">Language </a>
         </div>
@@ -207,6 +213,28 @@ function App() {
           maybe I should get another coffee. Maybe I have to get a watch to
           trace the time. maybe I should excercise.
         </p>
+        <p>
+          All these useless dates. or maybe usefull. I have this feeling of
+          being rightous and, it is not nice. it is ego in itself. This
+          text-book of astrology is powerfull.
+        </p>
+        <p>
+          The knowledge that I am carrying is not a selfish one. There is
+          nothing to lose. but the way universe plays is not parallel with what
+          we think. even in a second.
+        </p>
+        <p>
+          I do not agree with the way the current society is working. Who wants
+          to hack me ? There are this majority of people who lost the true
+          conevtivity. Or they may be ones who are connected. It is not apear
+          due to our limited perception. But the truth is we built this faulty
+          system and we are presisted to act that it is functioning. form our
+          governments and universities to our big and small businesses. banks
+          and inssurance companies. The problem is not in their terminology but
+          in their management and operations. There is a need for more advanced
+          technologies. At this moment.
+        </p>
+        <h2>Love Everyone & Tell The Truth</h2>
         {/* <h1>Astrology and Astronomy</h1> */}
       </div>
       <div className="footer">

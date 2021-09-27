@@ -1,3 +1,5 @@
+import React from "react";
+
 function Drugs() {
   const Drugs = {
     drug1: "Caffeine",
