@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import "./App.css";
 import "./Drugs.js";
+import RadiantLOGO from "./Components/Assets/RADIANT.jpeg";
 
 function App() {
   const adminUser = {
@@ -12,8 +13,8 @@ function App() {
   const [user, setUser] = useState({ name: "", email: "" });
   const [error, setError] = useState("");
 
-  const Login = (details) => {
-    console.log(details);
+  const Login = () => {
+    console.log("clicked");
   };
 
   return (
@@ -48,7 +49,7 @@ function App() {
           <h1>F3</h1>
         </div>
         <div className="generosity-3">
-          <button>Log in</button>
+          <button onClick={Login}>Log in</button>
         </div>
       </div>
       <div className="links">
