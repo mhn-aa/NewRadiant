@@ -4,4 +4,9 @@ function Drugs() {
     drug2: "Nicotine",
     drug3: "Cannabis",
   };
+  return (
+    <div>
+      <h1>Drugs</h1>
+    </div>
+  );
 }

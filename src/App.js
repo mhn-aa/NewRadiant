@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import "./App.css";
-import "./Drugs";
+import "./Drugs.js";
 
 function App() {
   const adminUser = {
@@ -61,9 +61,9 @@ function App() {
         <div className="first_art">
           <a href="./Art.js">Art </a>
         </div>
-        <div className="first_drugs">
-          <a href="./Drugs.js"> Drugs </a>
-        </div>
+        <navLink exact activeClassName="active" to="/">
+          Drugs{" "}
+        </navLink>
         <div className="first_language">
           <a href=".Language.js">Language </a>
         </div>
@@ -199,6 +199,13 @@ function App() {
           take the first step now. Just right now. 9:27 npm start 25th of
           September 2021. It does not matter if I was not able to push some
           "Logout" commits. I feel I am home. I am in my body.
+        </p>
+        <p>Text book of astrology.</p>
+        <p>there is an infinite source.</p>
+        <p>
+          Today 27th of Sep 2021. Can not really code, or is this a thought ?
+          maybe I should get another coffee. Maybe I have to get a watch to
+          trace the time. maybe I should excercise.
         </p>
         {/* <h1>Astrology and Astronomy</h1> */}
       </div>
