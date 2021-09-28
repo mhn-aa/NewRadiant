@@ -1,3 +1,6 @@
+* {
+  border: 1px solid red;
+}
 .header {
   height: 70px;
   background-color: lightgray;
@@ -5,62 +8,10 @@
   align-items: center;
 }
 
-.generosity0 {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-
-.generosity-1 {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-
-.generosity-2 {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-
-.generosity-3 {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-
-.center1 {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-.left1 {
-  flex: 1;
-}
-.left3 {
-  flex: 1;
-}
-
-.left2 {
-  flex: 1;
-}
-
 .right3 {
   background-color: springgreen;
   border-radius: 50%;
   display: grid;
-}
-
-.right2 {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-
-.right1 {
-  display: flex;
-  justify-content: center;
-  flex: 1;
 }
 
 .eye {
@@ -78,11 +29,6 @@
   background-color: lightgray;
 }
 
-.body {
-  display: grid;
-  justify-content: center;
-}
-
 .links {
   display: flex;
 }
@@ -90,9 +36,24 @@
 .bar1,
 .bar2,
 .bar3 {
-  width: 35px;
+  width: 45px;
   height: 5px;
   background-color: #333;
-  margin: 6px 0;
+  margin: 3px 0;
   transition: 0.4s;
+}
+.left1 {
+  display: flex;
+  flex: 1;
+}
+
+.left2 {
+  display: grid;
+  flex: 1;
+  justify-content: center;
+}
+.left3 {
+  display: grid;
+  justify-content: center;
+  flex: 1;
 }

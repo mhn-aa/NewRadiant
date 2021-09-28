@@ -212,6 +212,12 @@ function App() {
                 I can see everything but I can not know everything. I am only ti
                 know this moment without any judgement
               </p>
+              <p>These coversations are making us sick.</p>
+              <p>Things are really weird on L.S.D</p>
+              <p>
+                I do not own Radiant. Radiant is here and now. There is a need
+                for collaboration.
+              </p>
               {/* <h1>Astrology and Astronomy</h1> */}
             </div>
             <div className="footer">

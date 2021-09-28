@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="left1">
-        <svg width="100" height="96">
+        <svg width="100" height="100">
           <circle
             cx="50"
             cy="50"
@@ -27,17 +27,15 @@ const Header = () => {
       </div>
       <div className="left3">
         <Link to="/">
-          <h1>
-            <svg
-              width="400"
-              height="180"
-              fill="gold"
-              stroke="black"
-              stroke-width="1"
-            >
-              <rect x="20" y="69" rx="0" ry="0" width="50" height="50" />
-            </svg>
-          </h1>
+          <svg
+            width="400"
+            height="180"
+            fill="gold"
+            stroke="black"
+            stroke-width="1"
+          >
+            <rect x="20" y="67" rx="0" ry="0" width="50" height="50" />
+          </svg>
         </Link>
       </div>
       <div className="center1">
@@ -45,9 +43,7 @@ const Header = () => {
           <h1>RADIANT</h1>
         </Link>
       </div>
-      <div className="right3">
-        <VisibilityIcon className="eye" />
-      </div>
+      <div className="right3">{/* <VisibilityIcon className="eye" /> */}</div>
       <div className="right2">
         <h1>ET</h1>
       </div>
