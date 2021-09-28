@@ -23,7 +23,21 @@ const Header = () => {
       <div className="left2">
         <h3>Menu</h3>
       </div>
-      <div className="left3">{/* <h1>P</h1> */}</div>
+      <div className="left3">
+        <Link to="/">
+          <h1>
+            <svg
+              width="400"
+              height="180"
+              fill="gold"
+              stroke="black"
+              stroke-width="1"
+            >
+              <rect x="20" y="69" rx="0" ry="0" width="50" height="50" />
+            </svg>
+          </h1>
+        </Link>
+      </div>
       <div className="center1">
         <Link to="/">
           <h1>RADIANT</h1>

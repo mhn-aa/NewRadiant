@@ -207,6 +207,7 @@ function App() {
                 this moment.
               </p>
               <h2>Love Everyone & Tell The Truth</h2>
+              <p>Faith</p>
               {/* <h1>Astrology and Astronomy</h1> */}
             </div>
             <div className="footer">
