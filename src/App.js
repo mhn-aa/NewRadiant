@@ -208,6 +208,10 @@ function App() {
               </p>
               <h2>Love Everyone & Tell The Truth</h2>
               <p>Faith</p>
+              <p>
+                I can see everything but I can not know everything. I am only ti
+                know this moment without any judgement
+              </p>
               {/* <h1>Astrology and Astronomy</h1> */}
             </div>
             <div className="footer">

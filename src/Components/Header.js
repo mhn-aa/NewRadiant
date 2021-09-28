@@ -21,7 +21,9 @@ const Header = () => {
         </svg>
       </div>
       <div className="left2">
-        <h3>Menu</h3>
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
       </div>
       <div className="left3">
         <Link to="/">
