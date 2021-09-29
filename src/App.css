@@ -1,6 +1,6 @@
-* {
-  /* border: 1px solid red; */
-}
+/* * {
+  border: 1px solid red;
+} */
 .header {
   height: 70px;
   background-color: lightgray;
@@ -29,8 +29,9 @@
   background-color: lightgray;
 }
 
-.links {
-  display: flex;
+.Links {
+  display: grid;
+  justify-content: flex-start;
 }
 
 .bar1,
@@ -70,7 +71,14 @@
   flex: 1;
 }
 
-.links {
+.Mission {
+  height: 99px;
+  color: royalblue;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  background-color: gold;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

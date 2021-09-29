@@ -18,55 +18,36 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="links">
-          <div class="first_people">
-            <a href="./People.js">People</a>
-          </div>
-          <div className="first_books">
-            <a href="./Books.js">Books</a>
-          </div>
-          <div className="first_art">
-            <a href="./Art.js">Art </a>
-          </div>
-          <navLink exact activeClassName="active" to="/">
-            Drugs{" "}
-          </navLink>
-          <navLink exact activeClassName="active" to="/">
-            Politics{" "}
-          </navLink>
-          <navLink exact activeClassName="active" to="/">
-            Culture{" "}
-          </navLink>
-          <div className="first_language">
-            <a href=".Language.js">Language </a>
-          </div>
-          <div className="first_sexuality">
-            <a href="./Sexuality.js">Sexuality </a>
-          </div>
-          <div className="first_sprituality">
-            <a href="./Sprituality.js">Sprituality </a>
-          </div>
-          <div className="first_communication">
-            <a href="./Communication.js">Communication </a>
-          </div>
-          <div className="first_archeology">
-            <a href="./Archeology.js">Archeology </a>
-          </div>
-          <div className="first_technology">
-            <a href="./Technology.js"> Technology </a>
-          </div>
-          <div class="first_astrology">
-            <a href="./Astrology.js">Astrology</a>
-          </div>
-          <div class="first_philosophy">
-            <a href="./Philosophy.js">Philosophy</a>
-          </div>
-          <div class="first_coding">
-            <a href="./coding.js">Coding</a>
-          </div>
-          <div class="first_about-us">
-            <a href="./About-Us.js">About Us</a>
-          </div>
+        <div className="Mission">
+          <h2>Radiant is a Website for Conciousness Expansion</h2>
+          <table>
+            <tr>
+              <a href="./People.js">People</a>
+              <a href="./Books.js">Books</a>
+              <a href="./Art.js">Art </a>
+              <a href="./Drugs.js">Drugs </a>
+              <a href="./Politics.js">Politics </a>
+              <a href="./Culture.js">Culture </a>
+              <a href=".Language.js">Language </a>
+            </tr>
+            <tr>
+              <a href="./Sexuality.js">Sexuality </a>
+              <a href="./Sprituality.js">Sprituality </a>
+              <a href="./Communication.js">Communication </a>
+              <a href="./Archeology.js">Archeology </a>
+              <a href="./Technology.js"> Technology </a>
+              <a href="./Astrology.js">Astrology</a>
+              <a href="./Philosophy.js">Philosophy</a>
+            </tr>
+            <tr>
+              <a href="./History.js">History</a>
+              <a href="./Coding.js">Coding</a>
+              <a href="./Geometry.js">Geometry</a>
+            </tr>
+            <tr>
+              <a href="./Geometry.js">About Us</a>
+            </tr>
+          </table>
         </div>
 
         <Switch>
@@ -218,6 +199,7 @@ function App() {
                 for collaboration.
               </p>
               <p>There is no where to hide. paragraph after paragraph.</p>
+              <p>Pro Psychedelic Orianted</p>
               {/* <h1>Astrology and Astronomy</h1> */}
             </div>
             <div className="footer">
