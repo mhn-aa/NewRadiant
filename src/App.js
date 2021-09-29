@@ -43,6 +43,8 @@ function App() {
               <a href="./History.js">History</a>
               <a href="./Coding.js">Coding</a>
               <a href="./Geometry.js">Geometry</a>
+              <a href="./Geometry.js">Psychology</a>
+              <a href="./Geometry.js">Gastronomy</a>
             </tr>
             <tr>
               <a href="./Geometry.js">About Us</a>
@@ -200,6 +202,7 @@ function App() {
               </p>
               <p>There is no where to hide. paragraph after paragraph.</p>
               <p>Pro Psychedelic Orianted</p>
+              <p>This weird world and happenings next door.</p>
               {/* <h1>Astrology and Astronomy</h1> */}
             </div>
             <div className="footer">
