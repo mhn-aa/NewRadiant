@@ -72,19 +72,28 @@ function App() {
 
             <div>
               <p>
-                The next great subject which requires the student’s thoughtful
-                attention is the four Triplicities. These trigons correspond to
-                the four ancient elements, and are therefore, Fiery, Earthy,
-                Airy and Wa¬ tery. Each triplicity or “Trigon” contains three
+                Four Triplicities. These trigons correspond to , Fiery, Earthy,
+                Airy and Watery. Each triplicity or “Trigon” contains three
                 zodiacal signs, 4 times 3 equals 12, the number of the signs of
-                the sphere. The Fiery trigon embraces the signs of Aries ( T ),
-                Leo (), and Sagittarius ( # ). The Earthy trigon embraces the
-                signs Taurus ( S ), Virgo ( rrp ), and Capri¬ corn (V?). The
-                Airy trigon embraces the signs Gemini (X), Libra (=£=), and
-                Aquarius (^r). The Watery trigon embraces the signs Cancer (E5),
-                Scorpio (Til ), and Pisces ( X ), also see page 399, Wilson’s
-                Dictionary of Astrology. page 226 light of egypt vol 1, by
-                Zanoni, by MHN.
+                the sphere.
+                <p>
+                  The Fiery 🔥 trigon embraces the signs of Aries ♈︎, Leo ♌︎,
+                  and Sagittarius ♐︎.{" "}
+                </p>
+                <p>
+                  The Earthy 🌍 trigon embraces the signs Taurus ♉︎, Virgo ♍︎,
+                  and Capricorn ♑︎.
+                </p>
+                <p>
+                  The Airy 🌬️ trigon embraces the signs Gemini ♊︎, Libra ♎︎,
+                  and Aquarius ♒︎.
+                </p>
+                <p>
+                  he Watery 🌊 trigon embraces the signs Cancer ♋︎, Scorpio
+                  ♏︎, and Pisces ♓︎.
+                </p>
+                see page 399, Wilson’s Dictionary of Astrology. page 226 light
+                of egypt vol 1, by Zanoni, by MHN.
               </p>
 
               <p>
