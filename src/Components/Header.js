@@ -26,7 +26,7 @@ const Header = () => {
         <div class="bar3"></div>
       </div>
       <div className="left3">
-        <Link to="/">
+        {/* <Link to="/">
           <svg
             width="400"
             height="180"
@@ -36,7 +36,7 @@ const Header = () => {
           >
             <rect x="20" y="67" rx="0" ry="0" width="50" height="50" />
           </svg>
-        </Link>
+        </Link> */}
       </div>
       <div className="center1">
         <Link to="/">
@@ -44,21 +44,11 @@ const Header = () => {
         </Link>
       </div>
       <div className="right3">{/* <VisibilityIcon className="eye" /> */}</div>
-      <div className="right2">
-        <h1>ET</h1>
-      </div>
-      <div className="right1">
-        <h4>Alimo</h4>
-      </div>
-      <div className="generosity0">
-        <h1>F1</h1>
-      </div>
-      <div className="generosity-1">
-        <h1>F2</h1>
-      </div>
-      <div className="generosity-2">
-        <h1>F3</h1>
-      </div>
+      <div className="right2">{/* <h1>ET</h1> */}</div>
+      <div className="right1">{/* <h4>Alimo</h4> */}</div>
+      <div className="generosity-0">{/* <h1>F1</h1> */}</div>
+      <div className="generosity-1">{/* <h1>F2</h1> */}</div>
+      <div className="generosity-2">{/* <h1>F3</h1> */}</div>
       <div className="generosity-3">
         <Link to="/login">
           <button onClick={Login}>Log in</button>

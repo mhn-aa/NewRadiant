@@ -18,7 +18,6 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        {/* <Radiant /> */}
         <div className="links">
           <div class="first_people">
             <a href="./People.js">People</a>
@@ -218,6 +217,7 @@ function App() {
                 I do not own Radiant. Radiant is here and now. There is a need
                 for collaboration.
               </p>
+              <p>There is no where to hide. paragraph after paragraph.</p>
               {/* <h1>Astrology and Astronomy</h1> */}
             </div>
             <div className="footer">

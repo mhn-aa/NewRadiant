@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .header {
   height: 70px;
@@ -44,16 +44,33 @@
 }
 .left1 {
   display: flex;
-  flex: 1;
+  flex: 0.2;
 }
 
 .left2 {
   display: grid;
-  flex: 1;
+  flex: 0.2;
   justify-content: center;
 }
 .left3 {
   display: grid;
   justify-content: center;
   flex: 1;
+}
+
+.center1 {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.generosity-3 {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
 }
