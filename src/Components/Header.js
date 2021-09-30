@@ -13,7 +13,7 @@ const Header = () => {
           <circle
             cx="50"
             cy="50"
-            r="27"
+            r="33"
             stroke="royalblue"
             stroke-width="1.5"
             fill="silver"

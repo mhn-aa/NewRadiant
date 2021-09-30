@@ -81,4 +81,35 @@
   padding-right: 45px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-top: 9px solid orange;
+}
+
+.First_raw {
+  display: flex;
+  justify-content: space-between;
+}
+.Second_raw {
+  display: flex;
+  justify-content: space-between;
+}
+.Third_raw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Forth_raw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  border-left: 3px solid gray;
+  /* border: 5px solid lightgray; */
+  width: 600px;
+  padding-left: 50px;
+}
+
+.r {
+  padding-top: 0px;
+  padding-left: 30px;
 }
