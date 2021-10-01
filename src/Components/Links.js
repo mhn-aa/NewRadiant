@@ -12,10 +12,8 @@ const Links = () => {
         stroke-width="1"
         fill="orange"
       />
-    </svg> */}
-
+      </svg> */}
       <h3 className="r">"Radiant is a Website for Conciousness Expansion."</h3>
-
       <table className="content">
         <tr className="First_raw">
           <a href="./People.js">People</a>

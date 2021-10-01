@@ -9,16 +9,17 @@ const Header = () => {
   return (
     <div className="header">
       <div className="left1">
-        <svg width="100" height="100">
+        <svg width="70" height="70">
           <circle
-            cx="50"
-            cy="50"
-            r="33"
-            stroke="royalblue"
-            stroke-width="1.5"
-            fill="silver"
+            cx="35"
+            cy="35"
+            r="30"
+            stroke="Royalblue"
+            stroke-width="0"
+            fill="Royalblue"
           />
         </svg>
+        {/* <svg width="100" height="100" className="Cross"></svg> */}
       </div>
       <div className="left2">
         <div class="bar1"></div>
@@ -41,6 +42,10 @@ const Header = () => {
       <div className="center1">
         <Link to="/">
           <h1>RADIANT</h1>
+          <style>
+            @import
+            url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
+          </style>
         </Link>
       </div>
       <div className="right3">{/* <VisibilityIcon className="eye" /> */}</div>
