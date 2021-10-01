@@ -17,7 +17,7 @@ const Links = () => {
       <table className="content">
         <tr className="First_raw">
           <td>
-            <a href="./People.js">People</a>
+            <a href="./People.js">People2</a>
           </td>
           <td>
             <a href="./Books.js">Books</a>
