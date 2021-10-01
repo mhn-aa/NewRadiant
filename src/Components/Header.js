@@ -9,10 +9,10 @@ const Header = () => {
   return (
     <div className="header">
       <div className="left1">
-        <svg width="70" height="70">
+        <svg width="90" height="90">
           <circle
-            cx="35"
-            cy="35"
+            cx="45"
+            cy="45"
             r="30"
             stroke="Royalblue"
             stroke-width="0"
