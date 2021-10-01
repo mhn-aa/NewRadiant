@@ -16,11 +16,21 @@ const Links = () => {
       <h3 className="r">"Radiant is a Website for Conciousness Expansion."</h3>
       <table className="content">
         <tr className="First_raw">
-          <a href="./People.js">People</a>
-          <a href="./Books.js">Books</a>
-          <a href="./Art.js">Art </a>
-          <a href="./Drugs.js">Drugs </a>
-          <a href="./Politics.js">Politics </a>
+          <td>
+            <a href="./People.js">People</a>
+          </td>
+          <td>
+            <a href="./Books.js">Books</a>
+          </td>
+          <td>
+            <a href="./Art.js">Art </a>
+          </td>
+          <td>
+            <a href="./Drugs.js">Drugs </a>
+          </td>
+          <td>
+            <a href="./Politics.js">Politics </a>
+          </td>
         </tr>
         <tr className="Second_raw">
           <a href="./Culture.js">Culture </a>

@@ -16,7 +16,7 @@ const Header = () => {
             r="30"
             stroke="Royalblue"
             stroke-width="0"
-            fill="Royalblue"
+            fill="orange"
           />
         </svg>
         {/* <svg width="100" height="100" className="Cross"></svg> */}
@@ -41,11 +41,7 @@ const Header = () => {
       </div>
       <div className="center1">
         <Link to="/">
-          <h1>RADIANT</h1>
-          <style>
-            @import
-            url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
-          </style>
+          <h1 className="Name">RADIANT</h1>
         </Link>
       </div>
       <div className="right3">{/* <VisibilityIcon className="eye" /> */}</div>

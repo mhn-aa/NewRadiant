@@ -4,18 +4,12 @@
 
 .header {
   border-top: 9px solid gold;
-  height: 70px;
-  background-color: silver;
+  height: 90px;
+  background-color: royalblue;
   display: flex;
   align-items: center;
   border-left: 9px solid gold;
   border-right: 9px solid gold;
-}
-
-.right3 {
-  background-color: springgreen;
-  border-radius: 50%;
-  display: grid;
 }
 
 .eye {
@@ -41,21 +35,21 @@
 .bar1 {
   width: 45px;
   height: 5px;
-  background-color: #333;
+  background-color: yellow;
   margin: 18px 0;
   transition: 0.4s;
 }
 .bar2 {
   width: 45px;
   height: 5px;
-  background-color: #333;
+  background-color: yellow;
   margin: -3px 0;
   transition: 0.4s;
 }
 .bar3 {
   width: 45px;
   height: 5px;
-  background-color: #333;
+  background-color: yellow;
   margin: -27px 0;
   transition: 0.4s;
 }
@@ -103,7 +97,7 @@
   padding-bottom: 9px; */
   border-left: 9px solid gold;
   border-right: 9px solid gold;
-  border-top: 9px solid Gold;
+  border-top: 9px solid red;
   border-bottom: 9px solid Gold;
 }
 
@@ -134,4 +128,18 @@
 .r {
   padding-top: 0px;
   padding-left: 30px;
+}
+.Name {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.right3 {
+  display: flex;
+  justify-content: center;
+  border-left: 42px solid black;
+  border-right: 30px solid salmon;
+  border-top: 30px solid red;
+  border-bottom: 42px solid gold;
+  border-radius: 18%;
 }
