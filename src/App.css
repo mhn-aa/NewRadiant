@@ -2,6 +2,12 @@
   border: 1px solid red;
 } */
 
+* {
+  text-decoration: none;
+  font-family: sans-serif;
+  /* color: rebeccapurple; */
+}
+
 .header {
   border-top: 9px solid gold;
   height: 90px;
@@ -37,13 +43,13 @@
   transition: 0.4s;
 } */
 .bar2 {
-  border-top: 18px solid white;
-  border-bottom: 18px solid white;
-  border-left: 18px solid white;
-  border-right: 18px solid white;
+  border-top: 18px solid blue;
+  border-bottom: 18px solid green;
+  border-left: 18px solid purple;
+  border-right: 18px solid yellow;
   width: 18px;
   height: 18px;
-  background-color: springgreen;
+  background-color: silver;
   border-radius: 60%;
   margin: 0px 0;
   transition: 0.4s;
@@ -114,9 +120,8 @@
   padding-top: 0px;
   padding-left: 30px;
 }
-.Name {
+.name {
   color: aliceblue;
-  text-decoration: none;
 }
 
 .right3 {
@@ -132,6 +137,7 @@
   border-style: groove;
   /* border-style: ridge; */
   border-radius: 18%;
+  margin-left: 45px;
 }
 
 .footer {

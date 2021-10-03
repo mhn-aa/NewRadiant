@@ -39,6 +39,12 @@ function App() {
 
           <div>
             <p>
+              Relax and concentrate your soul on your solar plexus, Saying the
+              MantRAM, "My soul is one with the universe and my spirit an
+              emanation from God," then ask yourself, who am I? What have I
+              been?and what I must become?
+            </p>
+            <p>
               Four Triplicities. These trigons correspond to , Fiery, Earthy,
               Airy and Watery. Each triplicity or “Trigon” contains three
               zodiacal signs, 4 times 3 equals 12, the number of the signs of

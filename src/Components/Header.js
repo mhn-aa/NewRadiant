@@ -41,7 +41,7 @@ const Header = () => {
       </div>
       <div className="center1">
         <Link to="/">
-          <h1 className="Name">RADIANT</h1>
+          <h1 className="Name">EXAMPLE</h1>
         </Link>
       </div>
       <div className="right3">{/* <VisibilityIcon className="eye" /> */}</div>
