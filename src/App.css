@@ -4,11 +4,12 @@
 
 * {
   text-decoration: none;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   /* color: rebeccapurple; */
 }
 
 .header {
+  font-family: sans-serif;
   border-top: 9px solid gold;
   height: 90px;
   background-color: royalblue;

@@ -3,16 +3,6 @@ import { Link } from "react-router-dom";
 const Links = () => {
   return (
     <div className="Mission">
-      {/* <svg width="60" height="60">
-      <circle
-        cx="10"
-        cy="30"
-        r="20"
-        stroke="orange"
-        stroke-width="1"
-        fill="orange"
-      />
-      </svg> */}
       <h3 className="r">"Radiant is a Website for Conciousness Expansion."</h3>
       <table className="content">
         <tr className="First_raw">
