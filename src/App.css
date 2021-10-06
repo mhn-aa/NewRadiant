@@ -1,12 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-}
-
-* {
-  text-decoration: none;
-  /* font-family: sans-serif; */
-  /* color: rebeccapurple; */
-}
+} */
 
 .header {
   font-family: sans-serif;
@@ -29,20 +23,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* justify-content: center; */
-  /* border-left: 6px solid gold;
-  border-right: 6px solid gold; */
 }
 
-/* .bar1 {
-  border-top: 3px solid red;
-  border-bottom: 3px solid red;
-  width: 45px;
-  height: 18px;
-  background-color: yellow;
-  margin: 0px 0;
-  transition: 0.4s;
-} */
 .bar2 {
   border-top: 18px solid blue;
   border-bottom: 18px solid green;
@@ -80,10 +62,6 @@
   display: flex;
   justify-content: space-around;
   background-color: silver;
-  /* padding-left: 45px;
-  padding-right: 45px;
-  padding-top: 0px;
-  padding-bottom: 9px; */
   border-left: 9px solid gold;
   border-right: 9px solid gold;
   border-top: 9px solid red;
@@ -126,9 +104,6 @@
 }
 
 .right3 {
-  /* height: 9px;
-  width: 9px;
-  color: gold; */
   display: flex;
   justify-content: center;
   border-left: 27px solid silver;
@@ -136,7 +111,6 @@
   border-top: 27px solid olive;
   border-bottom: 27px solid gold;
   border-style: groove;
-  /* border-style: ridge; */
   border-radius: 18%;
   margin-left: 45px;
 }
