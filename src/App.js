@@ -68,6 +68,7 @@ function App() {
               see page 399, Wilson’s Dictionary of Astrology. page 226 light of
               egypt vol 1, by Zanoni, by MHN.
             </p>
+            <p>Feeling lost</p>
 
             <p>
               The moon is in charge, obviously not in a negative way. We need to

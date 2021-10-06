@@ -27,17 +27,17 @@ const Header = () => {
         <div class="bar3"></div>
       </div>
       <div className="left3">
-        {/* <Link to="/">
+        <Link to="/">
           <svg
-            width="400"
-            height="180"
+            width="80"
+            height="80"
             fill="gold"
             stroke="black"
-            stroke-width="1"
+            stroke-width="0"
           >
-            <rect x="20" y="67" rx="0" ry="0" width="50" height="50" />
+            <rect x="19" y="19" rx="6" ry="6" width="42" height="42" />
           </svg>
-        </Link> */}
+        </Link>
       </div>
       <div className="center1">
         <Link to="/">
