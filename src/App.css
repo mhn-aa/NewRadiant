@@ -4,13 +4,10 @@
 
 .header {
   font-family: sans-serif;
-  border-top: 9px solid gold;
   height: 90px;
-  background-color: royalblue;
+  background-color: lightgray;
   display: flex;
   align-items: center;
-  border-left: 9px solid gold;
-  border-right: 9px solid gold;
 }
 
 .left1 {
@@ -23,19 +20,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.bar2 {
-  border-top: 18px solid blue;
-  border-bottom: 18px solid green;
-  border-left: 18px solid purple;
-  border-right: 18px solid yellow;
-  width: 18px;
-  height: 18px;
-  background-color: silver;
-  border-radius: 60%;
-  margin: 0px 0;
-  transition: 0.4s;
 }
 
 .left3 {
@@ -56,67 +40,14 @@
   flex: 1;
 }
 
-.Mission {
-  height: 100px;
-  color: royalblue;
-  display: flex;
-  justify-content: space-around;
-  background-color: silver;
-  border-left: 9px solid gold;
-  border-right: 9px solid gold;
-  border-top: 9px solid red;
-  border-bottom: 9px solid Gold;
-}
-.Links {
-  display: grid;
-  justify-content: flex-start;
-}
-.First_raw {
-  display: flex;
-  justify-content: space-between;
-}
-.Second_raw {
-  display: flex;
-  justify-content: space-between;
-}
-.Third_raw {
-  display: flex;
-  justify-content: space-between;
-}
-
-.Forth_raw {
-  display: flex;
-  justify-content: space-between;
-}
-
-.content {
-  border-left: 9px solid Gold;
-  width: 600px;
-  height: 100px;
-}
-
-.r {
-  padding-top: 0px;
-  padding-left: 30px;
-}
-.name {
-  color: aliceblue;
-}
-
 .right3 {
   display: flex;
   justify-content: center;
-  border-left: 27px solid silver;
-  border-right: 27px solid salmon;
-  border-top: 27px solid olive;
+  border-left: 27px solid gold;
+  border-right: 27px solid gold;
+  border-top: 27px solid gold;
   border-bottom: 27px solid gold;
   border-style: groove;
-  border-radius: 18%;
+  border-radius: 0%;
   margin-left: 45px;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  background-color: silver;
 }
