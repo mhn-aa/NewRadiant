@@ -1,3 +1,4 @@
+import { People } from "@material-ui/icons";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -8,8 +9,8 @@ const Links = () => {
         <h3 className="r">
           "Radiant is a Website for Conciousness Expansion."
         </h3>
-        <Link to="/">
-          <p>People</p>
+        <Link to="/people">
+          <button onClick={People}>People</button>
         </Link>
         <Link to="/">
           <p>Books</p>

@@ -24,7 +24,15 @@ function App() {
           <Login />
         </Route>
         <Route path="/" exact>
-          <div className="body"></div>
+          <div className="body">
+            <p>Metaphore</p>
+            <p>Time travel</p>
+            <p>forward scape</p>
+            <p>siren</p>
+            <p>Generation of the perfect tool</p>
+            <p>self transcendance</p>
+          </div>
+
           <div></div>
           <div className="footer"></div>
         </Route>
