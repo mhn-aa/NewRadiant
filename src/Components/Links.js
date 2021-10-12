@@ -12,11 +12,17 @@ const Links = () => {
         <Link to="/people">
           <button onClick={People}>People</button>
         </Link>
-        <Link to="/">
-          <p>Books</p>
+        <Link to="/Books">
+          <button onClick={People}>Books</button>
+          {/* <p>Be Here Now</p> */}
+          {/* <p>The Light of Egypt</p> */}
+          {/* <p>The Power of Now</p> */}
+          {/* <p>New Earth</p> */}
+          {/* <p>Hermetica</p> */}
+          {/* <p>Text Book of Astrology</p> */}
         </Link>
         <Link to="/">
-          <p>Art</p>
+          <button onClick={People}>Art</button>
         </Link>
         <Link to="/">
           <p>Drugs</p>

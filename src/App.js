@@ -25,6 +25,9 @@ function App() {
         </Route>
         <Route path="/" exact>
           <div className="body">
+            <p>
+              I was happy to have that excess coffee. That Addict type thing.
+            </p>
             <p>Metaphore</p>
             <p>Time travel</p>
             <p>forward scape</p>
