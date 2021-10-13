@@ -3,6 +3,61 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Links = () => {
+  const People = () => {
+    console.log("clicked");
+  };
+  const Books = () => {
+    console.log("clicked");
+  };
+  const Art = () => {
+    console.log("clicked");
+  };
+  const Drugs = () => {
+    console.log("clicked");
+  };
+  const Politics = () => {
+    console.log("clicked");
+  };
+  const Culture = () => {
+    console.log("clicked");
+  };
+  const Language = () => {
+    console.log("clicked");
+  };
+  const Sprituality = () => {
+    console.log("clicked");
+  };
+  const Communication = () => {
+    console.log("clicked");
+  };
+  const Archeology = () => {
+    console.log("clicked");
+  };
+  const Technology = () => {
+    console.log("clicked");
+  };
+  const Astrology = () => {
+    console.log("clicked");
+  };
+  const Philosophy = () => {
+    console.log("clicked");
+  };
+  const History = () => {
+    console.log("clicked");
+  };
+  const Coding = () => {
+    console.log("clicked");
+  };
+  const Geometry = () => {
+    console.log("clicked");
+  };
+  const Psychology = () => {
+    console.log("clicked");
+  };
+  const Gastronomy = () => {
+    console.log("clicked");
+  };
+
   return (
     <Switch>
       <div className="Mission">
@@ -13,61 +68,55 @@ const Links = () => {
           <button onClick={People}>People</button>
         </Link>
         <Link to="/Books">
-          <button onClick={People}>Books</button>
-          {/* <p>Be Here Now</p> */}
-          {/* <p>The Light of Egypt</p> */}
-          {/* <p>The Power of Now</p> */}
-          {/* <p>New Earth</p> */}
-          {/* <p>Hermetica</p> */}
-          {/* <p>Text Book of Astrology</p> */}
+          <button onClick={Books}>Books</button>
         </Link>
         <Link to="/">
-          <button onClick={People}>Art</button>
+          <button onClick={Art}>Art</button>
         </Link>
         <Link to="/">
-          <p>Drugs</p>
+          <button onClick={Drugs}>Drugs</button>
         </Link>
         <Link to="/">
-          <p>Politics</p>
+          <button onClick={Politics}>Politics</button>
         </Link>
         <Link to="/">
-          <p>Culture</p>
+          <button onClick={Culture}>Culture</button>
         </Link>
         <Link to="/">
-          <p>Language</p>
+          <button onClick={Language}>Language</button>
         </Link>
         <Link to="/">
-          <p>Sprituality</p>
+          <button onClick={Sprituality}>Sprituality</button>
         </Link>
         <Link to="/">
-          <p>Communication</p>
+          <button onClick={Communication}>Communication</button>
         </Link>
         <Link to="/">
-          <p>Archeology</p>
+          <button onClick={Archeology}>Archeology</button>
         </Link>
         <Link to="/">
-          <p>Technology</p>
+          <button onClick={Technology}>Technology</button>
         </Link>
         <Link to="/">
-          <p>Astrology</p>
+          <button onClick={Astrology}>Astrology</button>
         </Link>
         <Link to="/">
-          <p>Philosophy</p>
+          <button onClick={Philosophy}>Philosophy</button>
         </Link>
         <Link to="/">
-          <p>History</p>
+          <button onClick={History}>History</button>
         </Link>
         <Link to="/">
-          <p>Coding</p>
+          <button onClick={Coding}>Coding</button>
         </Link>
         <Link to="/">
-          <p>Geometry</p>
+          <button onClick={Geometry}>Geometry</button>
         </Link>
         <Link to="/">
-          <p>Psychology</p>
+          <button onClick={Psychology}>Psychology</button>
         </Link>
         <Link to="/">
-          <p>Gastronomy</p>
+          <button onClick={Gastronomy}>Gastronomy</button>
         </Link>
         {/* <Link to="/About-Us">
           <button onClick={AboutUS}>About Us</button>
