@@ -34,9 +34,14 @@ function App() {
             <p>siren</p>
             <p>Generation of the perfect tool</p>
             <p>self transcendance</p>
+            <p>our own method</p>
+            <p>Money</p>
+            <p>Illuminati</p>
+            <p>Meditation</p>
+            <p>Working Out (Yoga)</p>
+            <p>The Text-Book of Astrology</p>
           </div>
 
-          <div></div>
           <div className="footer"></div>
         </Route>
       </Switch>

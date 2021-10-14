@@ -61,7 +61,7 @@ const Links = () => {
   return (
     <Switch>
       <div className="Mission">
-        <h3 className="r">
+        <h3 className="R">
           "Radiant is a Website for Conciousness Expansion."
         </h3>
         <Link to="/people">
@@ -70,52 +70,52 @@ const Links = () => {
         <Link to="/Books">
           <button onClick={Books}>Books</button>
         </Link>
-        <Link to="/">
+        <Link to="/Art">
           <button onClick={Art}>Art</button>
         </Link>
-        <Link to="/">
+        <Link to="/Drugs">
           <button onClick={Drugs}>Drugs</button>
         </Link>
-        <Link to="/">
+        <Link to="/Politics">
           <button onClick={Politics}>Politics</button>
         </Link>
-        <Link to="/">
+        <Link to="/Culture">
           <button onClick={Culture}>Culture</button>
         </Link>
-        <Link to="/">
+        <Link to="/Language">
           <button onClick={Language}>Language</button>
         </Link>
-        <Link to="/">
+        <Link to="/Sprituality">
           <button onClick={Sprituality}>Sprituality</button>
         </Link>
-        <Link to="/">
+        <Link to="/Communication">
           <button onClick={Communication}>Communication</button>
         </Link>
-        <Link to="/">
+        <Link to="/Archeology">
           <button onClick={Archeology}>Archeology</button>
         </Link>
-        <Link to="/">
+        <Link to="/Technology">
           <button onClick={Technology}>Technology</button>
         </Link>
-        <Link to="/">
+        <Link to="/Astrology">
           <button onClick={Astrology}>Astrology</button>
         </Link>
-        <Link to="/">
+        <Link to="/Philosophy">
           <button onClick={Philosophy}>Philosophy</button>
         </Link>
-        <Link to="/">
+        <Link to="/History">
           <button onClick={History}>History</button>
         </Link>
-        <Link to="/">
+        <Link to="/Coding">
           <button onClick={Coding}>Coding</button>
         </Link>
-        <Link to="/">
+        <Link to="/Geometry">
           <button onClick={Geometry}>Geometry</button>
         </Link>
-        <Link to="/">
+        <Link to="/Psychology">
           <button onClick={Psychology}>Psychology</button>
         </Link>
-        <Link to="/">
+        <Link to="/Gastronomy">
           <button onClick={Gastronomy}>Gastronomy</button>
         </Link>
         {/* <Link to="/About-Us">
