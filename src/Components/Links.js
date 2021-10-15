@@ -65,7 +65,9 @@ const Links = () => {
           "Radiant is a Website for Conciousness Expansion."
         </h3>
         <Link to="/people">
-          <button onClick={People}>People</button>
+          <button className="People" onClick={People}>
+            People
+          </button>
         </Link>
         <Link to="/Books">
           <button onClick={Books}>Books</button>
