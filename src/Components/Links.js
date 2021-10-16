@@ -57,6 +57,12 @@ const Links = () => {
   const Gastronomy = () => {
     console.log("clicked");
   };
+  const Engineering = () => {
+    console.log("clicked");
+  };
+  const Management = () => {
+    console.log("clicked");
+  };
 
   return (
     <Switch>
@@ -119,6 +125,12 @@ const Links = () => {
         </Link>
         <Link to="/Gastronomy">
           <button onClick={Gastronomy}>Gastronomy</button>
+        </Link>
+        <Link to="/Engineering">
+          <button onClick={Engineering}>Engineering</button>
+        </Link>
+        <Link to="/Management">
+          <button onClick={Management}>Management</button>
         </Link>
         {/* <Link to="/About-Us">
           <button onClick={AboutUS}>About Us</button>
