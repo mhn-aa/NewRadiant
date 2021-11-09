@@ -76,61 +76,99 @@ const Links = () => {
           </button>
         </Link>
         <Link to="/Books">
-          <button onClick={Books}>Books</button>
+          <button className="Books" onClick={Books}>
+            Books
+          </button>
         </Link>
         <Link to="/Art">
-          <button onClick={Art}>Art</button>
+          <button className="Art" onClick={Art}>
+            Art
+          </button>
         </Link>
         <Link to="/Drugs">
-          <button onClick={Drugs}>Drugs</button>
+          <button className="Drugs" onClick={Drugs}>
+            Drugs
+          </button>
         </Link>
         <Link to="/Politics">
-          <button onClick={Politics}>Politics</button>
+          <button className="Politics" onClick={Politics}>
+            Politics
+          </button>
         </Link>
         <Link to="/Culture">
-          <button onClick={Culture}>Culture</button>
+          <button className="Culture" onClick={Culture}>
+            Culture
+          </button>
         </Link>
         <Link to="/Language">
-          <button onClick={Language}>Language</button>
+          <button className="Language" onClick={Language}>
+            Language
+          </button>
         </Link>
         <Link to="/Sprituality">
-          <button onClick={Sprituality}>Sprituality</button>
+          <button className="Sprituality" onClick={Sprituality}>
+            Sprituality
+          </button>
         </Link>
         <Link to="/Communication">
-          <button onClick={Communication}>Communication</button>
+          <button className="Communication" onClick={Communication}>
+            Communication
+          </button>
         </Link>
         <Link to="/Archeology">
-          <button onClick={Archeology}>Archeology</button>
+          <button className="Archeology" onClick={Archeology}>
+            Archeology
+          </button>
         </Link>
         <Link to="/Technology">
-          <button onClick={Technology}>Technology</button>
+          <button className="Technology" onClick={Technology}>
+            Technology
+          </button>
         </Link>
         <Link to="/Astrology">
-          <button onClick={Astrology}>Astrology</button>
+          <button className="Astrology" onClick={Astrology}>
+            Astrology
+          </button>
         </Link>
         <Link to="/Philosophy">
-          <button onClick={Philosophy}>Philosophy</button>
+          <button className="Philosophy" onClick={Philosophy}>
+            Philosophy
+          </button>
         </Link>
         <Link to="/History">
-          <button onClick={History}>History</button>
+          <button className="History" onClick={History}>
+            History
+          </button>
         </Link>
         <Link to="/Coding">
-          <button onClick={Coding}>Coding</button>
+          <button className="Coding" onClick={Coding}>
+            Coding
+          </button>
         </Link>
         <Link to="/Geometry">
-          <button onClick={Geometry}>Geometry</button>
+          <button className="Geometry" onClick={Geometry}>
+            Geometry
+          </button>
         </Link>
         <Link to="/Psychology">
-          <button onClick={Psychology}>Psychology</button>
+          <button className="Psychology" onClick={Psychology}>
+            Psychology
+          </button>
         </Link>
         <Link to="/Gastronomy">
-          <button onClick={Gastronomy}>Gastronomy</button>
+          <button className="Gastronomy" onClick={Gastronomy}>
+            Gastronomy
+          </button>
         </Link>
         <Link to="/Engineering">
-          <button onClick={Engineering}>Engineering</button>
+          <button className="Engineering" onClick={Engineering}>
+            Engineering
+          </button>
         </Link>
         <Link to="/Management">
-          <button onClick={Management}>Management</button>
+          <button className="Management" onClick={Management}>
+            Management
+          </button>
         </Link>
         {/* <Link to="/About-Us">
           <button onClick={AboutUS}>About Us</button>

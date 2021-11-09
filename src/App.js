@@ -24,10 +24,7 @@ function App() {
           <Login />
         </Route>
         <Route path="/" exact>
-          <div className="body">
-            <p>I am just an ordinary person</p>
-          </div>
-
+          <div className="body"></div>
           <div className="footer"></div>
         </Route>
       </Switch>

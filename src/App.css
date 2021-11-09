@@ -16,10 +16,10 @@
   background-color: gold;
 }
 .People {
-  width: 90px;
+  width: 180px;
   display: inline-block;
   font-size: 18px;
-  margin: 18px;
+  margin: 9px;
   cursor: pointer;
   text-align: center;
   text-decoration: darkgreen;
@@ -28,7 +28,302 @@
   background-color: navy;
   border: none;
   border-radius: 9px;
-  box-shadow: 0 9px silver;
+  box-shadow: 0 3px silver;
+}
+.Books {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+.Art {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+.Drugs {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+.Politics {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+.Culture {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+.Language {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+.Sprituality {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Communication {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Archeology {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Technology {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Astrology {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Philosophy {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.History {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Coding {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Geometry {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Psychology {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+.Gastronomy {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+.Engineering {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
+}
+
+.Management {
+  width: 180px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: darkgreen;
+  outline: none;
+  color: gold;
+  background-color: navy;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
 }
 .left1 {
   display: flex;
