@@ -70,6 +70,7 @@ const Links = () => {
         <h3 className="R">
           "Radiant is a Website for Conciousness Expansion."
         </h3>
+
         <Link to="/people">
           <button className="People" onClick={People}>
             People

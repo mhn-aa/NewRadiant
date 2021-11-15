@@ -5,6 +5,7 @@ import "./Drugs.js";
 import Header from "./Components/Header";
 import Login from "./Components/Login";
 import Links from "./Components/Links";
+import { People } from "@material-ui/icons";
 
 function App() {
   const adminUser = {
@@ -19,6 +20,10 @@ function App() {
     <Router>
       <Header />
       <Links />
+      <Route path="/people">
+        <People />
+      </Route>
+
       <Switch>
         <Route path="/login">
           <Login />
