@@ -6,7 +6,7 @@ import Header from "./Components/Header";
 import Login from "./Components/Login";
 import Links from "./Components/Links";
 import { People } from "@material-ui/icons";
-import { Books } from "./Components/Books";
+import Books from "./Components/Books";
 
 function App() {
   const adminUser = {
@@ -28,9 +28,9 @@ function App() {
         <Route path="/people">
           <People />
         </Route>
-        {/* <Route path="/books">
+        <Route path="/books">
           <Books />
-        </Route> */}
+        </Route>
         <Route path="/" exact>
           <div className="body"></div>
           <div className="footer"></div>
