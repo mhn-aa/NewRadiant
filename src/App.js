@@ -7,6 +7,7 @@ import Login from "./Components/Login";
 import Links from "./Components/Links";
 import { People } from "@material-ui/icons";
 import Books from "./Components/Books";
+import Art from "./Components/Art";
 
 function App() {
   const adminUser = {
@@ -31,8 +32,16 @@ function App() {
         <Route path="/books">
           <Books />
         </Route>
+        <Route path="/Art">
+          <Art />
+        </Route>
         <Route path="/" exact>
-          <div className="body"></div>
+          <div className="body">
+            <p>
+              even if you are silent, people may/can hear you. you are not the
+              only one with extraordinary powers. we are all the same.
+            </p>
+          </div>
           <div className="footer"></div>
         </Route>
       </Switch>
