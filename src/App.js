@@ -8,6 +8,23 @@ import Links from "./Components/Links";
 import { People } from "@material-ui/icons";
 import Books from "./Components/Books";
 import Art from "./Components/Art";
+import Drugs from "./Components/Drugs";
+import Politics from "./Components/Politics";
+import Culture from "./Components/Culture";
+import Language from "./Components/Language";
+import Sprituality from "./Components/Sprituality";
+// import Communication from "./Components/Communication";
+// import Archeology from "./Components/Archeology";
+// import Technology from "./Components/Technology";
+// import Astrology from "./Components/Astrology";
+// import Philosophy from "./Components/Philosophy";
+// import History from "./Components/History";
+// import Coding from "./Components/Coding";
+// import Geometry from "./Components/Geometry";
+// import Psychology from "./Components/Psychology";
+// import Gastronomy from "./Components/Gastronomy";
+// import Engineering from "./Components/Engineering";
+// import Management from "./Components/Management";
 
 function App() {
   const adminUser = {
@@ -34,6 +51,21 @@ function App() {
         </Route>
         <Route path="/Art">
           <Art />
+        </Route>
+        <Route path="/Drugs">
+          <Drugs />
+        </Route>
+        <Route path="/Politics">
+          <Politics />
+        </Route>
+        <Route path="/Culture">
+          <Culture />
+        </Route>
+        <Route path="/Language">
+          <Language />
+        </Route>
+        <Route path="/Sprituality">
+          <Sprituality />
         </Route>
         <Route path="/" exact>
           <div className="body">
