@@ -1,5 +1,10 @@
 const Login = () => {
-  return <div> Welcome </div>;
+  return (
+    <div>
+      <h2>Welcome</h2>
+      <form type="text "></form>
+    </div>
+  );
 };
 
 export default Login;

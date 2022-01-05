@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import "./Drugs.js";
 import Header from "./Components/Header";
 import Login from "./Components/Login";
 import Links from "./Components/Links";
-// import { People } from "@material-ui/icons";
 import People from "./Components/People";
 import Books from "./Components/Books";
 import Art from "./Components/Art";
@@ -14,6 +13,7 @@ import Politics from "./Components/Politics";
 import Culture from "./Components/Culture";
 import Language from "./Components/Language";
 import Sprituality from "./Components/Sprituality";
+import HaveIdeaContactUs from "./Components/HaveIdeaContactUs";
 // import Communication from "./Components/Communication";
 // import Archeology from "./Components/Archeology";
 // import Technology from "./Components/Technology";
@@ -28,13 +28,16 @@ import Sprituality from "./Components/Sprituality";
 // import Management from "./Components/Management";
 
 function App() {
-  const adminUser = {
-    email: "admin@admin.com",
-    password: "admin123",
+  const [yourName, setYourName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const submitHandler = (event) => {
+    event.preventDefault();
+    console.log("", yourName, "", email, "", message);
+    setYourName("");
+    setEmail("");
+    setMessage("");
   };
-
-  const [user, setUser] = useState({ name: "", email: "" });
-  const [error, setError] = useState("");
 
   return (
     <Router>
@@ -75,6 +78,15 @@ function App() {
               only one with extraordinary powers. we are all the same.
             </p>
           </div>
+          <HaveIdeaContactUs
+            yourName={yourName}
+            email={email}
+            message={message}
+            submitHandler={submitHandler}
+            setYourName={setYourName}
+            setEmail={setEmail}
+            setMessage={setMessage}
+          />
           <div className="footer"></div>
         </Route>
       </Switch>

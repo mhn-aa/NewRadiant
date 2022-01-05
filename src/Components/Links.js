@@ -1,4 +1,3 @@
-import { People } from "@material-ui/icons";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Link } from "react-router-dom";
 
