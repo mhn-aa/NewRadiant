@@ -30,17 +30,32 @@ function App() {
   const [yourName, setYourName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const submitHandler = (event) => {
+  const submitHandler1 = (event) => {
     event.preventDefault();
     console.log("", yourName, "", email, "", message);
     setYourName("");
     setEmail("");
     setMessage("");
   };
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const submitHandler2 = (event) => {
+    event.preventDefault();
+    console.log("", username, "", password);
+
+    setUsername("");
+    setPassword("");
+  };
 
   return (
     <Router>
-      <Header />
+      <Header
+        username={username}
+        password={password}
+        submitHandler2={submitHandler2}
+        setUsername={setUsername}
+        setPassword={setPassword}
+      />
       <Links />
       <Switch>
         <Route path="/login">
@@ -81,7 +96,7 @@ function App() {
             yourName={yourName}
             email={email}
             message={message}
-            submitHandler={submitHandler}
+            submitHandler={submitHandler1}
             setYourName={setYourName}
             setEmail={setEmail}
             setMessage={setMessage}

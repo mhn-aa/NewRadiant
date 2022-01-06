@@ -1,7 +1,7 @@
 import React from "react";
 
 const HaveIdeaContactUs = ({
-  submitHandler,
+  submitHandler1,
   setYourName,
   setEmail,
   setMessage,
@@ -12,7 +12,7 @@ const HaveIdeaContactUs = ({
   return (
     <div className="have_idea_contact_us">
       <h3 className="header_have_idea_contact_us"></h3>
-      <form className="have_idea_contact_us_form" onSubmit={submitHandler}>
+      <form className="have_idea_contact_us_form" onSubmit={submitHandler1}>
         <div>
           <input
             value={yourName}
