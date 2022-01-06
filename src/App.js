@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React, { useState } from "react";
 import "./App.css";
-import "./Drugs.js";
 import Header from "./Components/Header";
 import Login from "./Components/Login";
 import Links from "./Components/Links";

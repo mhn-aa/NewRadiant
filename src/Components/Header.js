@@ -1,4 +1,3 @@
-import VisibilityIcon from "@material-ui/icons/Visibility";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -23,6 +22,16 @@ const Header = () => {
       <div className="generosity-2"></div>
       <div className="generosity-3">
         <Link to="/login">
+          <div>
+            <form>
+              <div>
+                <input type="text" placeholder="User Name" />
+              </div>
+              <div>
+                <input type="password" placeholder="pasword" />
+              </div>
+            </form>
+          </div>
           <button onClick={Login}>Log in</button>
         </Link>
       </div>
