@@ -47,6 +47,14 @@ function App() {
     setPassword("");
   };
 
+  const [search, setSearch] = useState("");
+  const submitHandler3 = (event) => {
+    event.preventDefault();
+    console.log("", search);
+
+    setSearch("");
+  };
+
   return (
     <Router>
       <Header
@@ -55,6 +63,9 @@ function App() {
         submitHandler2={submitHandler2}
         setUsername={setUsername}
         setPassword={setPassword}
+        search={search}
+        setSearch={setSearch}
+        submitHandler3={submitHandler3}
       />
       <Links />
       <Switch>
