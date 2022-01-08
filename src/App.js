@@ -78,22 +78,22 @@ function App() {
         <Route path="/books">
           <Books />
         </Route>
-        <Route path="/Art">
+        <Route path="/art">
           <Art />
         </Route>
-        <Route path="/Drugs">
+        <Route path="/drugs">
           <Drugs />
         </Route>
-        <Route path="/Politics">
+        <Route path="/politics">
           <Politics />
         </Route>
-        <Route path="/Culture">
+        <Route path="/culture">
           <Culture />
         </Route>
-        <Route path="/Language">
+        <Route path="/language">
           <Language />
         </Route>
-        <Route path="/Sprituality">
+        <Route path="/sprituality">
           <Sprituality />
         </Route>
         <Route path="/" exact>
@@ -107,7 +107,7 @@ function App() {
             yourName={yourName}
             email={email}
             message={message}
-            submitHandler={submitHandler1}
+            submitHandler1={submitHandler1}
             setYourName={setYourName}
             setEmail={setEmail}
             setMessage={setMessage}

@@ -1,2 +1,3 @@
 ### Radiant
-Purpose of "Radiant" is not in words but action. 
+
+"Radiant is a Website for Conciousness Expansion"
