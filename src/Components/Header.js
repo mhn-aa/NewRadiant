@@ -9,10 +9,13 @@ const Header = ({
   submitHandler3,
   search,
   setSearch,
+  RadiantLogo,
 }) => {
   return (
     <div className="header">
-      <div className="left1"></div>
+      <div className="left1">
+        <img src={RadiantLogo}></img>
+      </div>
       <div className="left3"></div>
       <div className="center1">
         <Link to="/">

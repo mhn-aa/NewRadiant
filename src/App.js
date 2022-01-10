@@ -13,6 +13,7 @@ import Culture from "./Components/Culture";
 import Language from "./Components/Language";
 import Sprituality from "./Components/Sprituality";
 import HaveIdeaContactUs from "./Components/HaveIdeaContactUs";
+import RadiantLogo from "./Components/Assets/RADIANT.jpeg";
 // import Communication from "./Components/Communication";
 // import Archeology from "./Components/Archeology";
 // import Technology from "./Components/Technology";
@@ -58,6 +59,7 @@ function App() {
   return (
     <Router>
       <Header
+        RadiantLogo={RadiantLogo}
         username={username}
         password={password}
         submitHandler2={submitHandler2}

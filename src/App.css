@@ -1,6 +1,10 @@
 body {
   background-color: silver;
 }
+.left1 {
+  margin-left: 10px;
+  height: 60px;
+}
 
 .header {
   font-family: sans-serif;
