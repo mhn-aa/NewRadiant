@@ -9,62 +9,62 @@ const Links = () => {
       <Link className="People" to="/people">
         People
       </Link>
-      <Link to="/books">
-        <button className="Books">Books</button>
+      <Link className="Books" to="/books">
+        Books
       </Link>
-      <Link to="/art">
-        <button className="Art">Art</button>
+      <Link className="Art" to="/art">
+        Art
       </Link>
-      <Link to="/drugs">
-        <button className="Drugs">Drugs</button>
+      <Link className="Drugs" to="/drugs">
+        Drugs
       </Link>
-      <Link to="/politics">
-        <button className="Politics">Politics</button>
+      <Link className="Politics" to="/politics">
+        Politics
       </Link>
-      <Link to="/culture">
-        <button className="Culture">Culture</button>
+      <Link className="Culture" to="/culture">
+        Culture
       </Link>
-      <Link to="/language">
-        <button className="Language">Language</button>
+      <Link className="Language" to="/language">
+        Language
       </Link>
-      <Link to="/sprituality">
-        <button className="Sprituality">Sprituality</button>
+      <Link className="Sprituality" to="/sprituality">
+        Sprituality
       </Link>
-      <Link to="/communication">
-        <button className="Communication">Communication</button>
+      <Link className="Communication" to="/communication">
+        Communication
       </Link>
-      <Link to="/archeology">
-        <button className="Archeology">Archeology</button>
+      <Link className="Archeology" to="/archeology">
+        Archeology
       </Link>
-      <Link to="/technology">
-        <button className="Technology">Technology</button>
+      <Link className="Technology" to="/technology">
+        Technology
       </Link>
-      <Link to="/astrology">
-        <button className="Astrology">Astrology</button>
+      <Link className="Astrology" to="/astrology">
+        Astrology
       </Link>
-      <Link to="/philosophy">
-        <button className="Philosophy">Philosophy</button>
+      <Link className="Philosophy" to="/philosophy">
+        Philosophy
       </Link>
-      <Link to="/history">
-        <button className="History">History</button>
+      <Link className="History" to="/history">
+        History
       </Link>
-      <Link to="/coding">
-        <button className="Coding">Coding</button>
+      <Link className="Coding" to="/coding">
+        Coding
       </Link>
-      <Link to="/geometry">
-        <button className="Geometry">Geometry</button>
+      <Link className="Geometry" to="/geometry">
+        Geometry
       </Link>
-      <Link to="/psychology">
-        <button className="Psychology">Psychology</button>
+      <Link className="Psychology" to="/psychology">
+        Psychology
       </Link>
-      <Link to="/gastronomy">
-        <button className="Gastronomy">Gastronomy</button>
+      <Link className="Gastronomy" to="/gastronomy">
+        Gastronomy
       </Link>
-      <Link to="/engineering">
-        <button className="Engineering">Engineering</button>
+      <Link className="Engineering" to="/engineering">
+        Engineering
       </Link>
-      <Link to="/management">
-        <button className="Management">Management</button>
+      <Link className="Management" to="/management">
+        Management
       </Link>
       {/* <Link to="/About-Us">
           <button onClick={AboutUS}>About Us</button>

@@ -14,6 +14,8 @@ import Language from "./Components/Language";
 import Sprituality from "./Components/Sprituality";
 import HaveIdeaContactUs from "./Components/HaveIdeaContactUs";
 import RadiantLogo from "./Components/Assets/RADIANT.jpeg";
+import TerenceMckenna from "./Components/Assets/Terence Mckenna.jpg";
+import axios from "axios";
 // import Communication from "./Components/Communication";
 // import Archeology from "./Components/Archeology";
 // import Technology from "./Components/Technology";
@@ -43,6 +45,17 @@ function App() {
   const submitHandler2 = (event) => {
     event.preventDefault();
     console.log("", username, "", password);
+
+    axios
+      .post("http://localhost:4000/login", {
+        username,
+        password,
+      })
+
+      .then((data) => {
+        // Checking procedure of logging in
+        console.log(data.data);
+      });
 
     setUsername("");
     setPassword("");
@@ -75,7 +88,7 @@ function App() {
           <Login />
         </Route>
         <Route path="/people">
-          <People />
+          <People TerenceMckenna={TerenceMckenna} />
         </Route>
         <Route path="/books">
           <Books />

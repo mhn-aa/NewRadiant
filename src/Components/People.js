@@ -1,7 +1,8 @@
-const People = () => {
+const People = (TerenceMckenna) => {
   return (
     <div>
       <h2>People</h2>
+      <img src={TerenceMckenna}></img>
       <p>Terence McKenna</p>
       <a href="https://www.youtube.com/watch?v=-3W6zGY5yt4" target="_blank">
         DMT is Everything
