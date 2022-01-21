@@ -24,7 +24,6 @@ const Header = ({
       </div>
       <div className="right3"></div>
       <div className="right2">
-        {" "}
         <form onSubmit={submitHandler3}>
           <input
             value={search}

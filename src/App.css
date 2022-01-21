@@ -1,5 +1,6 @@
 body {
   background-color: silver;
+  margin: 0;
 }
 .left1 {
   margin-left: 10px;
@@ -79,9 +80,13 @@ body {
 }
 
 .generosity-3 {
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   flex: 1;
+}
+.right2 {
+  margin-right: 10px;
 }
 
 .right3 {
@@ -94,11 +99,19 @@ body {
   border-style: groove;
   border-radius: 0%;
   margin-left: 45px;
+  margin-right: 10px;
 }
 
-/* .Mission {
-  display: grid;
-  flex: 1;
-  justify-content: space-evenly;
+.Mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.have_idea_contact_us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   align-items: center;
-} */
+}

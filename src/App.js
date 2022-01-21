@@ -112,12 +112,7 @@ function App() {
           <Sprituality />
         </Route>
         <Route path="/" exact>
-          <div className="body">
-            <p>
-              even if you are silent, people may/can hear you. you are not the
-              only one with extraordinary powers. we are all the same.
-            </p>
-          </div>
+          <div className="body"></div>
           <HaveIdeaContactUs
             yourName={yourName}
             email={email}

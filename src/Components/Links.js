@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 const Links = () => {
   return (
     <div className="Mission">
-      <h3 className="R">"Radiant is a Website for Conciousness Expansion"</h3>
-
+      {/* <h3 className="R">"Radiant is a Website for Conciousness Expansion"</h3> */}
       <Link className="People" to="/people">
         People
       </Link>
