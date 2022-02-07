@@ -2,17 +2,11 @@ const People = (TerenceMckenna) => {
   return (
     <div>
       <h2>People</h2>
-      <img src={TerenceMckenna}></img>
+      {/* <img src={TerenceMckenna}></img> */}
       <p>Terence McKenna</p>
       <a href="https://www.youtube.com/watch?v=-3W6zGY5yt4" target="_blank">
         DMT is Everything
       </a>
-      <p>
-        {" "}
-        As far as DMT is concerned, Ayahusca is driven by DMT, What made me go
-        to the amazon was I first encountered DMT in the underground in berkeley
-        in 1967.{" "}
-      </p>
     </div>
   );
 };
