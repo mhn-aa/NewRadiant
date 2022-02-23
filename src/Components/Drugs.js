@@ -1,5 +1,6 @@
 const Drugs = () => {
-  return <div> Drugs </div>;
+  return <div className="Drugs">
+     </div>;
 };
 
 export default Drugs;
