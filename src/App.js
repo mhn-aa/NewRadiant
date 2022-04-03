@@ -13,6 +13,7 @@ import Culture from "./Components/Culture";
 import Language from "./Components/Language";
 import Sprituality from "./Components/Sprituality";
 import HaveIdeaContactUs from "./Components/HaveIdeaContactUs";
+import AboutUs from "./Components/AboutUs";
 import RadiantLogo from "./Components/Assets/RADIANT.jpeg";
 import TerenceMckenna from "./Components/Assets/Terence Mckenna.jpg";
 import axios from "axios";
@@ -111,6 +112,9 @@ function App() {
         <Route path="/sprituality">
           <Sprituality />
         </Route>
+        <Route path="/AboutUs">
+          <AboutUs />
+        </Route>
         <Route path="/" exact>
           <div className="body"></div>
           <HaveIdeaContactUs
@@ -122,7 +126,6 @@ function App() {
             setEmail={setEmail}
             setMessage={setMessage}
           />
-          <div className="footer"></div>
         </Route>
       </Switch>
     </Router>

@@ -65,9 +65,9 @@ const Links = () => {
       <Link className="Management" to="/management">
         Management
       </Link>
-      {/* <Link to="/About-Us">
-          <button onClick={AboutUS}>About Us</button>
-        </Link> */}
+      {/* <Link to="/AboutUs">
+        <button onClick={AboutUS}>About Us</button>
+      </Link> */}
     </div>
   );
 };
