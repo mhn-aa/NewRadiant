@@ -1,5 +1,9 @@
 const Books = () => {
-  return <div> Books </div>;
+  return (
+    <div>
+      <h1 className="title">Books</h1>
+    </div>
+  );
 };
 
 export default Books;

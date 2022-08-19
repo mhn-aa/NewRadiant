@@ -1,5 +1,10 @@
 const Language = () => {
-  return <div> Language </div>;
+  return (
+    <div>
+      {" "}
+      <h1 className="title">Language</h1>
+    </div>
+  );
 };
 
 export default Language;

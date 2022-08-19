@@ -1,12 +1,16 @@
 const People = (TerenceMckenna) => {
   return (
     <div>
-      <h2>People</h2>
-      {/* <img src={TerenceMckenna}></img> */}
+      <h1 className="title">People</h1>
+      {/* <h2>People</h2>
+      <h3>Prophets</h3>
+      <hr />
+
       <p>Terence McKenna</p>
+      <hr />
       <a href="https://www.youtube.com/watch?v=-3W6zGY5yt4" target="_blank">
         DMT is Everything
-      </a>
+      </a> */}
     </div>
   );
 };

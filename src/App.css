@@ -119,3 +119,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: navy;
+}

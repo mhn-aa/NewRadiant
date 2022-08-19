@@ -1,5 +1,9 @@
 const Politics = () => {
-  return <div> Politics </div>;
+  return (
+    <div>
+      <h1 className="title">Politics</h1>
+    </div>
+  );
 };
 
 export default Politics;

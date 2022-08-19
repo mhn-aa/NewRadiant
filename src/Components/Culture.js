@@ -1,5 +1,9 @@
 const Culture = () => {
-  return <div> Culture </div>;
+  return (
+    <div>
+      <h1 className="title">Culture</h1>
+    </div>
+  );
 };
 
 export default Culture;
