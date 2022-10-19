@@ -9,4 +9,4 @@ const Technology = () => {
   );
 };
 
-export default Art;
+export default Technology;

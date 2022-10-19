@@ -14,12 +14,12 @@ import Language from "./Components/Language";
 import Sprituality from "./Components/Sprituality";
 import HaveIdeaContactUs from "./Components/HaveIdeaContactUs";
 import AboutUs from "./Components/AboutUs";
+import Technology from "./Components/Technology";
 import RadiantLogo from "./Components/Assets/RADIANT.jpeg";
 import TerenceMckenna from "./Components/Assets/Terence Mckenna.jpg";
 import axios from "axios";
-// import Communication from "./Components/Communication";
+import Communication from "./Components/Communication";
 // import Archeology from "./Components/Archeology";
-// import Technology from "./Components/Technology";
 // import Astrology from "./Components/Astrology";
 // import Philosophy from "./Components/Philosophy";
 // import History from "./Components/History";
@@ -111,6 +111,12 @@ function App() {
         </Route>
         <Route path="/sprituality">
           <Sprituality />
+        </Route>
+        <Route path="/technology">
+          <Technology />
+        </Route>
+        <Route path="/Communication">
+          <Communication />
         </Route>
         <Route path="/AboutUs">
           <AboutUs />
