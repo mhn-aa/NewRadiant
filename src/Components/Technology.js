@@ -5,6 +5,7 @@ const Technology = () => {
       <h3>22 - Feb - 2022</h3>
       <h2>Waterjet Pump</h2>
       <p>You have to make sure that the gurards are on while the pump is on.</p>
+      <p>Test</p>
     </div>
   );
 };
