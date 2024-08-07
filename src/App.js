@@ -19,6 +19,7 @@ import RadiantLogo from "./Components/Assets/RADIANT.jpeg";
 import TerenceMckenna from "./Components/Assets/Terence Mckenna.jpg";
 import axios from "axios";
 import Communication from "./Components/Communication";
+import Coding from "./Components/Coding";
 // import Archeology from "./Components/Archeology";
 // import Astrology from "./Components/Astrology";
 // import Philosophy from "./Components/Philosophy";
@@ -120,6 +121,9 @@ function App() {
         </Route>
         <Route path="/AboutUs">
           <AboutUs />
+        </Route>
+        <Route path="/Coding">
+          <Coding />
         </Route>
         <Route path="/" exact>
           <div className="body"></div>
